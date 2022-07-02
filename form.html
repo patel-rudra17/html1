@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            background-color: lightblue;
+            color: darkblue;
+        } */
+        fieldset{
+            background-color: lightblue;
+            color: darkblue;
+        }
+        label{
+            font-size: larger;
+            font-weight: bolder;
+            font-style: italic;
+        }
+        button{
+            border: 2px solid black;
+            border-radius: 3px;
+            font-size: larger;
+            font-weight: bolder;
+            font-style: italic;
+        }
+        legend{
+            text-align: center;
+            border: 5px solid gray;
+            font-size: larger;
+            font-weight: bolder;
+            font-style: italic;
+            background-color: black;
+            color: white;
+        }
+        select{
+            font-size: larger;
+            font-weight: bolder;
+            border: 2px solid black;
+        }
+        #header{
+          background-color: aquamarine;
+
+        }
+        #navbar{
+          display: flex;
+        }
+        .item{
+          list-style-type: none;
+          padding: 60px;
+          float: left;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <section>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="https://silveroakuni.ac.in/upload/images/logo.png" height="150px" width="400px" alt="sou logo">
+            </div>
+            <ul>
+                <li class="item"><a href="index.html">HTML</a></li>
+                <li class="item"><a href="list.html">List</a></li>
+                <li class="item"><a href="form.html">Form</a><div class="line"></div></li>
+                <li class="item"><a href="table.html">Table</a></li>
+                <li class="item"><a href="media.html">Media</a></li>
+                <li class="item"><a href="animation.html">Animation</a></li>
+            </ul>
+        </nav></section></header><hr>
+    <fieldset>
+        
+        <legend>personal info</legend><br>
+        <form>
+            <label>Name :</label>
+            <input type="text" placeholder="enter your name"><br><br>
+            <label>Email id :</label>
+            <input type="email" placeholder="enter your email id"><br><br>
+            <label>Endrollment no. :</label>
+            <input type="number"  placeholder="enter your endrollment no"><br><br>
+            <label>Address :</label>
+            <textarea name="address" cols="30" rows="10" autofocus placeholder="enter your Address"></textarea><br><br>
+            <label>Gender :</label>
+            <input type="radio" name="gender" id="g1" /><label>Male</label>
+            <input type="radio" name="gender" id="g2" /><label>Female</label>
+            <input type="radio" name="gender" id="g3" /><label>Other</label><br><br>
+            <button>submit</button>
+            
+        </form>
+    </fieldset><br><br><br>
+    
+    
+    
+    <fieldset class="form2">
+        <legend>University info</legend>
+        <label>college Name :</label>
+            <input type="text" placeholder="enter your college name"><br><br>
+            <label>Department :</label>
+            <input type="text" placeholder="enter your Department"><br><br>
+            <label>password :</label>
+            <input type="password" placeholder="enter your password"><br><br>
+            <label>Re-password :</label>
+            <input type="password" placeholder="enter your re-password"><br><br>
+            <select>
+                <option> IT-A</option>
+                <option> IT-B</option>
+                <option> IT-C</option>
+            </select><br><br>
+            <button>submit</button>
+            
+
+    </fieldset>
+
+
+</body>
+</html>

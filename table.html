@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIME TABLE</title>
+    <style>
+      th,
+      tr,
+      td {
+        border: 1px solid #000000;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 15px;     
+        margin: 5px;
+        padding: 5px;
+        width: 1000px;
+      }
+
+      .hed h3 {
+        float: right;
+      }
+
+      .hed {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20rem;
+        background: white(0, 0, 0);
+        color: black;
+      }
+
+      .nav h3 {
+        float: right;
+        font-weight: bolder;
+      }
+
+      img {
+        padding: 20px;
+      }
+      #header{
+          background-color: aquamarine;
+
+        }
+        #navbar{
+          display: flex;
+        }
+        .item{
+          list-style-type: none;
+          padding: 60px;
+          float: left;
+        }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <section>
+      <nav id="navbar">
+          <div id="logo">
+              <img src="https://silveroakuni.ac.in/upload/images/logo.png" height="150px" width="400px" alt="sou logo">
+          </div>
+          <ul>
+              <li class="item"><a href="index.html">HTML</a></li>
+              <li class="item"><a href="list.html">List</a></li>
+              <li class="item"><a href="form.html">Form</a></li>
+              <li class="item"><a href="table.html">Table</a><div class="line"></div></li>
+              <li class="item"><a href="media.html">Media</a></li>
+              <li class="item"><a href="animation.html">Animation</a></li>
+          </ul>
+      </nav></section></header><hr>
+    <div class="nav">
+      <img
+        src="https://silveroakuni.ac.in/upload/images/logo.png"
+        height="100px"
+        width="300px"
+        alt="SOU logo"
+      />
+      <h3>
+        <pre>
+        College Of Technology
+        Silver Oak College Of Engineering & Technology
+        Bachelor Of Technology In Information Technology</pre
+        >
+      </h3>
+    </div>
+    <br />
+
+    <div class="hed">
+      <pre> <h2>Semester : V
+Class    : IT(B)</h2> </pre>
+
+      <pre>  <h2>Class Time Table
+Class Room : B-412</h2></pre>
+
+      <h3>w.e.f : 27/06/2022</h3>
+    </div>
+    <br /><br />
+
+    <center>
+      <table border="5">
+        <thead>
+          <tr>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th><b> TIME</b></th>
+            <th><b>MONDAY</b></th>
+            <th><b> TUESDAY</b></th>
+            <th><b> WEDNESDAY</b></th>
+            <th><b>THRUSRAY</b></th>
+            <th><b>FRIDAY</b></th>
+            <th><b>SATURDAY</b></th>
+          </tr>
+          <tr>
+            <td style="font-weight: bold">08:30 TO 9:20</td>
+            <td>AWT(AR)</td>
+            <td rowspan="2">
+              B1.ADA(DR)-507/A <br />
+              B2.NT(AD)-507/B <br />
+              B3.SE(DS)-505/A
+            </td>
+            <td rowspan="2">
+              B1.CS(NKP)-507/B1 <br />
+              B2.ADA(DR)-507/A <br />
+              B3.CS(DS)-505/A
+            </td>
+            <td>AWT(AR)</td>
+            <td rowspan="2">
+              B1.NT(AD)-507/A <br />
+              B2.CS(NKP)-505/AD <br />
+              B3.ADA(DR)-507/A
+            </td>
+            <td rowspan="2">
+              B1.AWT(AR)-501 <br />
+              B2.AWT(AR)-508
+            </td>
+          </tr>
+
+          <tr>
+            <td style="font-weight: bold">09:20 TO 10:10</td>
+            <td>AWT(AR)</td>
+            <td>AWT(AR)</td>
+          </tr>
+
+          <tr>
+            <td style="font-weight: bold">10:10 TO 10:20</td>
+            <td colspan="6" style="text-align: center"><b>RECESS</b></td>
+          </tr>
+
+          <tr>
+            <td style="font-weight: bold">10:20 TO 11:10</td>
+            <td rowspan="2">
+              B1.AWT(AR) <br />
+              B2.AWT(AR)
+            </td>
+            <td>AWT(AR)</td>
+            <td>AWT(AR)</td>
+            <td rowspan="2">
+              B1.AWT(AR)-501 <br />
+              B2.AWT(AR)-508
+            </td>
+            <td>AWT(AR)</td>
+            <td>AWT(AR)</td>
+          </tr>
+
+          <tr>
+            <td style="font-weight: bold">11:10 TO 12:00</td>
+            <td>AWT(AR)</td>
+            <td>AWT(AR)</td>
+            <td>AWT(AR)</td>
+            <td>AWT(AR)</td>
+          </tr>
+
+          <tr>
+            <td style="font-weight: bold">12:00 TO 12:0</td>
+            <td colspan="6" style="text-align: center"><b>RECESS</b></td>
+          </tr>
+
+          <tr>
+            <td style="font-weight: bold">12:20 TO 01:10</td>
+            <td>SE(DS)</td>
+            <td rowspan="2">
+              B1.AWT(AR)-501 <br />
+              B2.AWT(AR)-508
+            </td>
+            <td rowspan="2">
+              B1.AWT(AR)-501 <br />
+              B2.AWT(AR)-508
+            </td>
+            <td rowspan="2">
+              B1.SE(KP)-505/A <br />
+              B2.SE(KP)-507/B <br />
+              B3.NT(AD)-507/A
+            </td>
+            <td rowspan="2">
+              B1.AWT(AR)-501 <br />
+              B2.AWT(AR)-508
+            </td>
+            <td>ADA(DR)</td>
+          </tr>
+
+          <tr>
+            <td style="font-weight: bold">11:10 TO 12:00</td>
+            <td>AWT(AR)</td>
+            <td>CS(NP)</td>
+          </tr>
+
+          <tr>
+            <td style="font-weight: bold">02:00 TO 02:10</td>
+            <td colspan="6" style="text-align: center"><b>RECESS</b></td>
+          </tr>
+
+          <tr>
+            <td style="font-weight: bold">02:01 TO 03:00</td>
+            <td>CS(DS)</td>
+            <td>ADA(VNT)</td>
+            <td>ADA(VNT)</td>
+            <td>CS(NKP)</td>
+            <td>NT(AD)</td>
+            <td>ABPS-2</td>
+          </tr>
+
+
+          
+          <tr>
+            <td colspan="7" style="text-align: center"><br><br></td>
+          </tr>
+          
+          <tr>
+            <th> <b>Subject Code</b> </th>
+            <th colspan="2"> <b>Subjec Name</b> </th>
+            <th> <b>Teaching Scheme  <br/><hr/>L+T+P=C</b></th>
+            <th colspan="3"> <b>Faculty Name</b> </th>
+          </tr>
+  
+          <tr>
+            <td><b>1010043316</b></td>
+            <td colspan="2">Analysis And Design Of Algorithms (ADA)</td>
+            <td>4+0+2=5</td>
+            <td colspan="3">VNT & DR</td>
+          </tr>
+  
+          <tr>
+            <td></td>
+            <td colspan="2">Network Technology (NT)</td>
+            <td>1+0+2=2</td>
+            <td colspan="3"> AD</td>
+          </tr>
+  
+          <tr>
+            <td><b>1010043318</b></td>
+            <td colspan="2">Advanced Web Technology (AWT)-Internship</td>
+            <td>12+0+2=10</td>
+            <td colspan="3"> AR</td>
+          </tr>
+  
+          <tr>
+            <td></td>
+            <td colspan="2">Software Engineering (SE)</td>
+            <td>1+0+2=2</td>
+            <td colspan="3"> DS & KP</td>
+          </tr>
+  
+          <tr>
+            <td><b>1010043362</b></td>
+            <td colspan="2">Cyber Security (CS)</td>
+            <td>3+0+2=5</td>
+            <td colspan="3"> NKP & DS</td>
+          </tr>
+  
+          <tr>
+            <td><b>1010043381</b></td>
+            <td colspan="2">Aptitude Building & Professional Skills-2
+            </td>
+            <td>0+1+0=1</td>
+            <td colspan="3"> T & P </td>
+          </tr>
+  
+        </tbody>
+      </table>
+  
+      
+      <div class="hed">
+        <pre> <h2>Prof.Vikas Tulshyan
+  Head Of Department</h2> </pre>
+  
+        <pre>  <h2>Prof.Jaimin Dave
+  Vice Principal</h2></pre>
+        
+        <pre>  <h2>Dr.Pina Bhatt
+   Director Of Technology</h2></pre>
+  
+        
+      </div>
+      <br /><br />
+        </tbody>
+      </table>
+    </center>
+  </body>
+</html>

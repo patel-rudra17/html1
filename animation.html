@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+      #header{
+          background-color: aquamarine;
+
+        }
+        #navbar{
+          display: flex;
+        }
+        .item{
+          list-style-type: none;
+          padding: 60px;
+          float: left;
+        }
+        .box{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: relative;
+        animation-name: example;
+        animation-duration: 6s;
+        animation-iteration-count: 1;
+        border-inline-end: 50px;
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes example {
+        0%   {background-color:red; left:0px; top:0px; width:100px; height:100px; border-radius: 0px; transform: rotate(0deg);}
+        25%  {background-color:yellow; left:200px; top:0px; width:90px; height:90px; border-top-left-radius: 40px;border-top-right-radius: 40; transform: rotate(90deg);}
+        50%  {background-color:blue; left:200px; top:200px; width:140px; height:100px; border-bottom-right-radius: 10px; border-top: 30px; transform: rotate(180deg);}
+        75%  {background-color:green; left:0px; top:200px; width:160px; height:80px; border-bottom: 20px; border-left: 10px; transform: rotate(200deg);}
+        100% {background-color:red; left:0px; top:0px; width:90px; height:90px; border-radius: 50px; transform: rotate(380deg);}
+      }
+    </style>
+    
+</head>
+<body>
+  <header id="header">
+    <section>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="https://silveroakuni.ac.in/upload/images/logo.png" height="150px" width="400px" alt="sou logo">
+        </div>
+        <ul>
+            <li class="item"><a href="index.html">HTML</a></li>
+            <li class="item"><a href="list.html">List</a></li>
+            <li class="item"><a href="form.html">Form</a></li>
+            <li class="item"><a href="table.html">Table</a></li>
+            <li class="item"><a href="media.html">Media</a></li>
+            <li class="item"><a href="animation.html">Animation</a><div class="line"></div></li>
+        </ul>
+    </nav></section></header><hr>
+      <div class="hading">
+      <h1>CSS Animation</h1>
+      </div>
+      <div class="box"></div>
+</body>
+</html>
